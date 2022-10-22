@@ -76,3 +76,34 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.row-left {
+  align-items: baseline;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.font-14 {
+  font-size: 14px;
+}
